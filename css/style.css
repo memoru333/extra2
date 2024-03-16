@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.h1 {
+    margin: 80px 0 0 0;
+    font-weight: normal;
+}
+
+.h2 {
+    font-size: 14px;
+}
+
+.list {
+    
+}
+
+li {
+    margin: 0;
+    list-style: none;
+}
+
+.flex {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: yellow;
+}
+
+
+dl {
+    margin: 0;
+    display: flex;
+}
+
+dt {
+    margin: 0;
+    width: 25%;
+}
+
+dd {
+    margin: 0;
+    width: 75%;
+}
+
+.container {
+    width: 95vw;
+    margin: 0 auto;
+}
