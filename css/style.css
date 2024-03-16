@@ -52,21 +52,32 @@ li {
     content: "";
     background: #000;
     right: 0;
+    transition: .3s;
+    pointer-events: all;
 }
 
 .mark span:first-child {
     width: 100%;
-    height: 2px;
+    height: 1px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .mark span:last-child {
-    width: 2px;
+    width: 1px;
     height: 100%;
     left: 50%;
     transform: translateX(-50%);
 }
+
+.mark span.open:first-child {
+    content: none;
+}
+
+.mark span.open:last-child {
+    transform: rotate(90deg);
+}
+
 
 dl {
     margin: 0;
