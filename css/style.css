@@ -30,6 +30,8 @@ li {
 dl {
     margin: 0;
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 dt {
