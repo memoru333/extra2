@@ -11,7 +11,7 @@ body {
 }
 
 .h2 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .list {
@@ -25,6 +25,7 @@ li {
 
 .flex {
     border-top: 1px solid #000;
+    margin-top: 50px;
     padding: 0 30px;
     height: 100px;
     display: flex;
@@ -34,6 +35,32 @@ li {
 
 .flex:hover {
     background: #ffda5f;
+}
+
+.mark {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    right: 0;
+}
+
+.mark span {
+    position: absolute;
+    content: "";
+    background: #000;
+    right: 0;
+}
+
+.mark span:first-child {
+    width: 100%;
+    height: 2px;
+    top: 50%;
+}
+
+.mark span:last-child {
+    width: 2px;
+    height: 100%;
+    left: 50%;
 }
 
 dl {
