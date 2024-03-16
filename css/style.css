@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+body {
+    margin: 0;
+    background: #fffbef;
+}
+
 .h1 {
     margin: 80px 0 0 0;
     font-weight: normal;
@@ -10,7 +15,7 @@
 }
 
 .list {
-    
+    margin: 0;
 }
 
 li {
@@ -19,13 +24,17 @@ li {
 }
 
 .flex {
-    height: 80px;
+    border-top: 1px solid #000;
+    padding: 0 30px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: yellow;
 }
 
+.flex:hover {
+    background: #ffda5f;
+}
 
 dl {
     margin: 0;
