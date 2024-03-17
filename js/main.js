@@ -1,5 +1,5 @@
 $(function() {
     $('.mark').on('click', function() {
-       $('.mark').toggleClass('open');
+       $('.mark span').toggleClass('open');
     });
 });
