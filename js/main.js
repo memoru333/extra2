@@ -1,5 +1,5 @@
 $(function() {
-    $('.mark span').on('click', function() {
+    $('.flex').on('click', function() {
        $('.mark span').toggleClass('open');
     });
 });
